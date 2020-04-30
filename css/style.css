@@ -1,4 +1,4 @@
-/* Regole generali */
+/* INIZIO REGOLE GENERALI */
 body {
   font-family: 'Quicksand', sans-serif;
   }
@@ -20,11 +20,12 @@ body {
     color: white;
   }
   .row {
-    
+    /* border: 1px solid green;  */
     height: 600px; /*debug*/
     width: 1170px;
     margin: auto;
   }
+/* FINE REGOLE GENERALI */
 
 /* INIZIO HEADER */
 /* Inizio regole Nav */
@@ -69,18 +70,43 @@ main {}
   /* Inizio sezione instructions */
   main .banner {
     background-image: url(../img/HelbizBanner.jpg);
-    height: 650px;
+    background-size: cover;
+    height: 350px;
   }
   main .instructions p {
-    padding-top: 750px;
+    padding-top: 450px;
     text-align: center;
   }
   main .instructions img {
     width: 150%;
-    height: 550px;
-    margin-top: 350px;
-
+    height: 500px;
+    margin-top: 100px;
   }
-
   /* Fine sezione instructions */
+
+  /* Inizio sezione blocks */
+  main section .scooter {
+    margin-top: 250px;
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: right;
+    padding: 100px;
+  }
+  main section .scooter a {
+    text-decoration: none;
+    color: white;
+  }
+  main section .app {
+    background-image: url(../img/HelbiZAPP.png);
+    background-size: cover;
+    background-color: #3c5163;
+    height: 350px;
+  }
+  main section .city {
+    background-image: url(../img/Cities-1500.jpg);
+    background-size: cover;
+    height: 350px;
+  }
+  /* Fine sezione blocks */
 /* FINE MAIN */
