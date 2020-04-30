@@ -20,7 +20,7 @@ body {
     color: white;
   }
   .row {
-    border: 1px solid green; /*debug*/
+    
     height: 600px; /*debug*/
     width: 1170px;
     margin: auto;
@@ -52,6 +52,7 @@ nav {
 
 /* INIZIO MAIN */
 main {}
+  /* Inizio sezione rent-options */
   main .box {
     text-align: center;
     margin-top: 50px;
@@ -63,4 +64,23 @@ main {}
     width: 90%;
     height: 400px;
   }
+  /* Fine sezione rent-options */
+
+  /* Inizio sezione instructions */
+  main .banner {
+    background-image: url(../img/HelbizBanner.jpg);
+    height: 650px;
+  }
+  main .instructions p {
+    padding-top: 750px;
+    text-align: center;
+  }
+  main .instructions img {
+    width: 150%;
+    height: 550px;
+    margin-top: 350px;
+
+  }
+
+  /* Fine sezione instructions */
 /* FINE MAIN */
