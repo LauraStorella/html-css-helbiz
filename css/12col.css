@@ -9,7 +9,7 @@
   .debug [class*="col-"] {
     background-color: pink;
     border: 1px solid blue;
-    height: 100px;
+    height: 150px;
   }
 
 /* Fine regole debug */
